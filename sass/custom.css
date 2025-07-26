@@ -1,0 +1,97 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+img {
+  height: auto;
+  width: 125px;
+}
+
+a {
+  color: #13643c !important;
+}
+
+.home-section {
+  background: url("https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?auto=format&fit=crop&w=1500&q=80") center center/cover no-repeat;
+  color: #fff;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(19, 70, 52, 0.8);
+  padding: 60px 20px;
+  width: 100%;
+}
+
+.section-title {
+  color: #13643c;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  color: #33b679;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+footer {
+  background: #13643c;
+  color: #fff;
+  padding: 18px 0;
+  text-align: center;
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+
+.floating-icons {
+  position: fixed;
+  right: 26px;
+  bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 999;
+}
+
+.floating-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  box-shadow: 0 4px 14px rgba(19, 100, 60, 0.3);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.floating-icon.call {
+  background: #34b7f1;
+}
+
+.floating-icon:hover,
+.floating-icon:focus {
+  background: #1c885a;
+  color: #fff;
+  transform: scale(1.07);
+}
+
+.floating-icon.call:hover,
+.floating-icon.call:focus {
+  background: #287ada;
+}/*# sourceMappingURL=custom.css.map */
