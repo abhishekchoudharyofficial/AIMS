@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aims | E-Waste Recycle & Management</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+        }
+        .home-section {
+            background: url('https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?auto=format&fit=crop&w=1500&q=80') center center/cover no-repeat;
+            color: #fff;
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+        }
+        .overlay {
+            background: rgba(19,70,52,0.8);
+            padding: 60px 20px;
+            width: 100%;
+        }
+        .section-title {
+            color: #13643c;
+            margin-bottom: 32px;
+            font-weight: bold;
+        }
+        .card-icon {
+            font-size: 2.5rem;
+            color: #33b679;
+        }
+        .form-label {
+            font-weight: 500;
+        }
+        footer {
+            background: #13643c;
+            color: #fff;
+            padding: 18px 0;
+            text-align: center;
+            margin-top: 40px;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">aims</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home-section" id="home">
+        <div class="overlay">
+            <div class="container">
+                <h1 class="display-4 fw-bold">aims</h1>
+                <p class="lead mb-4">Delhi's Trusted E-Waste Recycle & Management Company</p>
+                <p>Your sustainable partner for safe and effective e-waste disposal, recovery, and environmental compliance.</p>
+                <a href="#services" class="btn btn-light btn-lg mt-3">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">About Us</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=700&q=80"
+                        alt="E-waste recycling" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <p class="fs-5">At <strong>aims</strong>, we are committed to promoting eco-friendly management of electronic waste in Delhi and beyond. Established by industry experts, our mission is to reduce the ecological impact of discarded electronics through responsible recycling, safe data destruction, and sustainable resource recovery.</p>
+                    <ul class="list-unstyled">
+                        <li>✔️ Eco-friendly e-waste disposal solutions</li>
+                        <li>✔️ Secure, certified facility and processes</li>
+                        <li>✔️ Experienced and passionate team</li>
+                        <li>✔️ Corporate, government, and residential clients</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card shadow h-100 text-center">
+                        <div class="card-body">
+                            <div class="mb-3 card-icon"><i class="bi bi-recycle"></i></div>
+                            <h5 class="card-title">E-Waste Collection & Recycling</h5>
+                            <p class="card-text">Collection of old computers, printers, mobile devices, and electronic equipment, ensuring safe dismantling, segregation, and eco-friendly recycling.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow h-100 text-center">
+                        <div class="card-body">
+                            <div class="mb-3 card-icon"><i class="bi bi-shield-lock"></i></div>
+                            <h5 class="card-title">Data Destruction</h5>
+                            <p class="card-text">Complete data wiping and physical destruction services for hard drives and storage devices, ensuring your confidential data remains secure.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow h-100 text-center">
+                        <div class="card-body">
+                            <div class="mb-3 card-icon"><i class="bi bi-tree"></i></div>
+                            <h5 class="card-title">Compliance & Certificate Issuance</h5>
+                            <p class="card-text">Documentation and certification as per government and PCB norms, to help you meet statutory e-waste compliance requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h5>Get in touch</h5>
+                    <p>
+                        <strong>Address:</strong><br>
+                        aims E-Waste Recycle & Management<br>
+                        Okhla Phase II, New Delhi, Delhi - 110020<br>
+                        <strong>Email:</strong> info@aimsewaste.com<br>
+                        <strong>Phone:</strong> +91 9876543210
+                    </p>
+                    <p>We respond within 24 hours. Reach out for customized solutions, bulk pickup, or any queries!</p>
+                </div>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="How can we help you?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 aims | E-Waste Recycle & Management | Delhi, India
+    </footer>
+
+    <!-- Bootstrap JS and Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
