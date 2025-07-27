@@ -10,10 +10,43 @@ body {
     scroll-behavior: smooth;
 }
 
+.navbar {
+    background: #ffffff !important;
+    border-bottom: 1px solid #f0f0f0;
+    box-shadow: none;
+}
+
 .navbar-brand {
-    font-weight: bold;
-    font-size: 1.8rem;
+    font-weight: 700;
+    color: #14543c !important;
     letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #333a3d !important;
+    font-weight: 500;
+    margin: 0 0.6rem;
+    transition: color 0.2s;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: #27ae60 !important;
+}
+
+.navbar-toggler {
+    border: none;
+    color: #27ae60;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        background: #fff;
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 2px 8px rgba(40, 40, 60, 0.04);
+    }
 }
 
 img {
