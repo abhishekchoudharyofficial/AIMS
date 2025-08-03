@@ -1,0 +1,158 @@
+/* Background Art */
+body {
+    background: linear-gradient(120deg, #d1fae5 0%, #f6e9a0 100%);
+    min-height: 100vh;
+}
+
+.navbar {
+    background: #fff !important;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #14543c !important;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    color: #333a3d !important;
+    font-weight: 500;
+    margin: 0 0.6rem;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.nav-link:focus {
+    color: #27ae60 !important;
+}
+
+.about-hero {
+    position: relative;
+    background: #fff;
+    border-radius: 28px;
+    box-shadow: 0 10px 32px rgba(68, 130, 97, 0.13);
+    margin-top: 32px;
+    padding: 48px 24px 36px;
+}
+
+.floating-leaf {
+    position: absolute;
+    z-index: 0;
+    opacity: 0.12;
+    width: 160px;
+    height: 160px;
+    background: url('https://img.icons8.com/ios-filled/160/27ae60/leaf.png') no-repeat center;
+    background-size: contain;
+}
+
+.leaf1 {
+    left: -30px;
+    top: -40px;
+}
+
+.leaf2 {
+    right: -35px;
+    top: 70px;
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: 2.4rem;
+    letter-spacing: 1.4px;
+    color: #14543c;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Director Card */
+.director-card {
+    background: #27ae60;
+    border-radius: 24px;
+    box-shadow: 0 6px 20px rgba(39, 174, 96, 0.16);
+    text-align: center;
+    padding: 32px 20px 24px;
+    color: #fff;
+    margin: 0 auto 32px;
+    max-width: 380px;
+    position: relative;
+    z-index: 1;
+}
+
+.director-icon {
+    font-size: 2.8rem;
+    background: #f6e9a0;
+    color: #14543c;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 8px;
+}
+
+.director-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.role {
+    opacity: 0.85;
+}
+
+/* Main Brief */
+.main-brief {
+    font-size: 1.19rem;
+    color: #333a3d;
+    max-width: 700px;
+    margin: 0 auto 28px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Feature Row */
+.features-row {
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+
+.feature-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 20px #27ae6018;
+    text-align: center;
+    position: relative;
+    margin-bottom: 14px;
+    transition: transform 0.16s;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px) scale(1.04);
+    box-shadow: 0 10px 32px #27ae6018;
+}
+
+.feature-icon {
+    font-size: 2.2rem;
+    color: #27ae60;
+    margin-bottom: 12px;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+
+    .about-hero,
+    .main-brief,
+    .features-row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .feature-card {
+        padding: 24px 10px;
+    }
+}

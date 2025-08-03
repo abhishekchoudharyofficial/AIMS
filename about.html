@@ -1,120 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | aims – E-Waste Recycle & Management</title>
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom file -->
+    <link rel="stylesheet" href="sass/custom.css">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <style>
-        /* Background Art */
-        body {
-            background: linear-gradient(120deg, #d1fae5 0%, #f6e9a0 100%);
-            min-height: 100vh;
-        }
-        .about-hero {
-            position: relative;
-            background: #fff;
-            border-radius: 28px;
-            box-shadow: 0 10px 32px rgba(68, 130, 97, 0.13);
-            margin-top: 32px;
-            padding: 48px 24px 36px;
-        }
-        .floating-leaf {
-            position: absolute;
-            z-index: 0;
-            opacity: 0.12;
-            width: 160px;
-            height: 160px;
-            background: url('https://img.icons8.com/ios-filled/160/27ae60/leaf.png') no-repeat center;
-            background-size: contain;
-        }
-        .leaf1 {left: -30px; top: -40px;}
-        .leaf2 {right: -35px; top: 70px;}
-        .section-title {
-            font-weight: 800;
-            font-size: 2.4rem;
-            letter-spacing: 1.4px;
-            color: #14543c;
-            margin-bottom: 20px;
-            position: relative;
-            z-index: 1;
-        }
-        /* Director Card */
-        .director-card {
-            background: #27ae60;
-            border-radius: 24px;
-            box-shadow: 0 6px 20px rgba(39,174,96,0.16);
-            text-align: center;
-            padding: 32px 20px 24px; 
-            color: #fff;
-            margin: 0 auto 32px;
-            max-width: 380px;
-            position: relative;
-            z-index: 1;
-        }
-        .director-icon {
-            font-size: 2.8rem;
-            background: #f6e9a0;
-            color: #14543c;
-            border-radius: 50%;
-            width: 62px;
-            height: 62px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 8px;
-        }
-        .director-name {font-size: 1.3rem; font-weight: 600; margin-bottom: 2px;}
-        .role {opacity: 0.85;}
-        /* Main Brief */
-        .main-brief {
-            font-size: 1.19rem;
-            color: #333a3d;
-            max-width: 700px;
-            margin: 0 auto 28px;
-            text-align: center;
-            position: relative;
-            z-index: 1;
-        }
-        /* Feature Row */
-        .features-row {
-            margin-top: 32px;
-            margin-bottom: 10px;
-        }
-        .feature-card {
-            background: #fff;
-            border-radius: 20px;
-            padding: 30px 20px;
-            box-shadow: 0 4px 20px #27ae6018;
-            text-align: center;
-            position: relative;
-            margin-bottom: 14px;
-            transition: transform 0.16s;
-        }
-        .feature-card:hover {
-            transform: translateY(-8px) scale(1.04);
-            box-shadow: 0 10px 32px #27ae6018;
-        }
-        .feature-icon {
-            font-size: 2.2rem;
-            color: #27ae60;
-            margin-bottom: 12px;
-        }
-        /* Responsive */
-        @media (max-width: 767.98px) {
-            .about-hero, .main-brief, .features-row {padding-left: 0; padding-right: 0;}
-            .feature-card {padding: 24px 10px;}
-        }
+        
     </style>
 </head>
+
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background:#fff;border-bottom:1px solid #f0f0f0;">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" style="color:#14543c;letter-spacing:2px;" href="index.html">aims</a>
+            <a class="navbar-brand" href="index.html">aims</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -141,8 +47,11 @@
                 <div class="role mb-1">Director</div>
             </div>
             <div class="main-brief">
-                aims is reshaping e-waste management in Delhi by combining eco-innovation, transparent service, and heartfelt care for the planet.<br><br>
-                Founded by industry pioneers, aims offers secure, certified solutions for e-waste recycling, data destruction, and regulatory compliance. We empower businesses, organizations, and individuals to make a sustainable impact—protecting your data, the environment, and our shared future.
+                aims is reshaping e-waste management in Delhi by combining eco-innovation, transparent service, and
+                heartfelt care for the planet.<br><br>
+                Founded by industry pioneers, aims offers secure, certified solutions for e-waste recycling, data
+                destruction, and regulatory compliance. We empower businesses, organizations, and individuals to make a
+                sustainable impact—protecting your data, the environment, and our shared future.
             </div>
 
             <div class="row features-row">
@@ -150,21 +59,24 @@
                     <div class="feature-card h-100">
                         <div class="feature-icon"><i class="bi bi-recycle"></i></div>
                         <div class="fw-semibold mb-1">Eco-Centric Recycling</div>
-                        <div style="font-size:1rem; color:#14543c;">Responsibly recycle electronics, ensuring zero harm to the earth.</div>
+                        <div style="font-size:1rem; color:#14543c;">Responsibly recycle electronics, ensuring zero harm
+                            to the earth.</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-3">
                     <div class="feature-card h-100">
                         <div class="feature-icon"><i class="bi bi-shield-lock"></i></div>
                         <div class="fw-semibold mb-1">Data Security First</div>
-                        <div style="font-size:1rem;color:#14543c;">Certified data destruction for your absolute privacy & peace.</div>
+                        <div style="font-size:1rem;color:#14543c;">Certified data destruction for your absolute privacy
+                            & peace.</div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 mb-3">
                     <div class="feature-card h-100">
                         <div class="feature-icon"><i class="bi bi-file-earmark-check"></i></div>
                         <div class="fw-semibold mb-1">Regulatory Compliance</div>
-                        <div style="font-size:1rem;color:#14543c;">Stay audit-ready with our PCB-approved, fully documented processes.</div>
+                        <div style="font-size:1rem;color:#14543c;">Stay audit-ready with our PCB-approved, fully
+                            documented processes.</div>
                     </div>
                 </div>
             </div>
@@ -174,4 +86,5 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
